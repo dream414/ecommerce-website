@@ -15,7 +15,7 @@ const ProductsData = [
 
 function Products() {
   return (
-    <div className="mt-14 mb-12 container m-auto">
+    <div id="selling" className="mt-14 mb-12 container m-auto">
       {/* Header */}
       <div className="text-center mb-10 max-w-[600px] mx-auto">
         <p data-aos="fade-up" className="md:text-4xl text-2xl text-orange-500">

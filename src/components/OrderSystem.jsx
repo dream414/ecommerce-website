@@ -37,7 +37,7 @@ function OrderSystem() {
   const total = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
 
   return (
-    <div className="p-4">
+    <div id="cloth" className="p-4">
       {/* Header */}
       <div className="text-center my-10" data-aos="fade-down">
         <div className="flex flex-row items-center justify-center text-center">

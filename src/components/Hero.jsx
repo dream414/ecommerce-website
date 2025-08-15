@@ -41,7 +41,7 @@ function Hero() {
   };
 
   return (
-    <div className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] flex justify-center items-center">
+    <div id="hero" className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] flex justify-center items-center">
       {/* 🧱 Hero Content Container */}
       <div className="container pb-8 sm:pb-0 text-center sm:text-left relative z-10">
         

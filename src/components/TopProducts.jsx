@@ -21,7 +21,7 @@ function TopProducts() {
   }, []);
 
   return (
-    <div className='container m-auto mt-14 mb-12'>
+    <div id="top" className='container m-auto mt-14 mb-12'>
       {/* Header */}
       <div className='text-center mb-30'>
         <p data-aos='fade-up' className='md:text-4xl text-2xl text-orange-400'>Top Rated Products for You</p>

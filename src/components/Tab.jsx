@@ -25,7 +25,7 @@ const Tab = () => {
       : "hover:bg-yellow-100";
 
   return (
-    <div className="max-w-5xl mx-auto mt-10 p-4">
+    <div id="child" className="max-w-5xl mx-auto mt-10 p-4">
       {/* Tabs */}
       <div className="flex flex-wrap justify-center gap-2 border-b pb-3">
         {[1, 2, 3].map((num) => (

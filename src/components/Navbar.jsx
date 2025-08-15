@@ -5,18 +5,18 @@ import { FaCaretDown } from "react-icons/fa"; // ✅ Correct dropdown icon
 
 // Navigation menu
 const Menu = [
-  { id: 1, name: "Home", link: "/#" },
-  { id: 2, name: "Top Rated", link: "/services" },
-  { id: 3, name: "Kids Wear", link: "/#" },
-  { id: 4, name: "Mens Wear", link: "/#" },
-  { id: 5, name: "Electronics", link: "/#" },
+  { id: 1, name: "Home", link: "#hero" },
+  { id: 2, name: "Top Rated", link: "#top" },
+  { id: 3, name: "Kids Wear", link: "#child" },
+  { id: 4, name: "Womens Wear", link: "#selling" },
+  { id: 5, name: "Traditional outfit ", link: "#cloth" },
 ]
 
 // Dropdown menu
 const DropdownLink = [
-  { id: 1, name: "Trending  Products", link: "/#" },
-  { id: 2, name: "Best Selling", link: "/#" },
-  { id: 3, name: "Top Rated", link: "/#" },
+  { id: 1, name: "Trending  Products", link: "#cloth" },
+  { id: 2, name: "Best Selling", link: "#selling" },
+  { id: 3, name: "Top Rated", link: "#top" },
 ]
 
 function Navbar() {
